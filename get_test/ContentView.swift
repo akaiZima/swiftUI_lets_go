@@ -9,10 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        HStack{
         Text("Hello, world!")
             .padding()
             .ignoresSafeArea(.all)
             .background(Color(#colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)))
+            
+            Text("go")
+        }
     }
 }
 
